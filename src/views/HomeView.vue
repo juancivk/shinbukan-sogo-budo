@@ -112,21 +112,22 @@ const languages = inject('languages');
     <div class="py-20 bg-white">
       <div class="max-w-7xl mx-auto text-center">
         <h3 class="text-4xl font-bold mb-6">
-          {{ currentLanguage === 'es' ? 'Nuestros Instructores' : 'Our Instructors' }}
+          {{ currentLanguage === 'es' ? 'Instructor' : 'Instructor' }}
+          <!-- {{ currentLanguage === 'es' ? 'Nuestros Instructores' : 'Our Instructors' }} -->
         </h3>
         <div class="flex justify-center space-x-8">
           <!-- Instructor 1 -->
-          <div class="text-center">
+          <div class="text-center flex flex-col justify-center items-center">
             <img
               src="https://via.placeholder.com/150"
               alt="Instructor"
               class="w-32 h-32 rounded-full mb-4"
             />
-            <h4 class="font-semibold text-xl mb-2">Sensei Juan Pérez</h4>
+            <h4 class="font-semibold text-xl mb-2">Sensei Hector Fundora</h4>
             <p class="text-gray-600">{{ currentLanguage === 'es' ? 'Instructor principal de Aikido' : 'Chief Aikido Instructor' }}</p>
           </div>
           <!-- Instructor 2 -->
-          <div class="text-center">
+          <!-- <div class="text-center">
             <img
               src="https://via.placeholder.com/150"
               alt="Instructor"
@@ -134,7 +135,7 @@ const languages = inject('languages');
             />
             <h4 class="font-semibold text-xl mb-2">Sensei María López</h4>
             <p class="text-gray-600">{{ currentLanguage === 'es' ? 'Instructor de Aikido avanzado' : 'Advanced Aikido Instructor' }}</p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
