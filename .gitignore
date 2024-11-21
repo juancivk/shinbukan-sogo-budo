@@ -27,8 +27,4 @@ coverage
 *.sln
 *.sw?
 
-<<<<<<< HEAD
 *.tsbuildinfo
-=======
-*.tsbuildinfo
->>>>>>> master
