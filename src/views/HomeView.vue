@@ -17,12 +17,12 @@ const languages = inject('languages');
       </h2>
       <p class="text-lg text-gray-700 mb-6">
         {{ currentLanguage === 'es'
-          ? 'Explora nuestro arte marcial en español. Aprende sobre nuestra filosofía, clases y horarios.'
-          : 'Explore our martial art in English. Learn about our philosophy, classes, and schedule.' }}
+          ? 'Explora nuestro arte marcial. Aprende sobre nuestra filosofía, clases y horarios.'
+          : 'Explore our martial art. Learn about our philosophy, classes, and schedule.' }}
       </p>
       <div>
         <img
-          src="https://via.placeholder.com/1200x600"
+          src="/src/assets/images/bgmain.png"
           alt="Aikido Practice"
           class="w-full h-auto rounded-lg shadow-lg"
         />
@@ -53,9 +53,9 @@ const languages = inject('languages');
           <!-- Card 1 -->
           <div class="bg-white rounded-lg shadow-md overflow-hidden">
             <img
-              src="https://via.placeholder.com/400x300"
+              src="/src/assets/images/ab.png"
               alt="Clase de Aikido"
-              class="w-full h-48 object-cover"
+              class="w-full object-cover"
             />
             <div class="p-4">
               <h4 class="text-xl font-semibold mb-2">
@@ -71,9 +71,9 @@ const languages = inject('languages');
           <!-- Card 2 -->
           <div class="bg-white rounded-lg shadow-md overflow-hidden">
             <img
-              src="https://via.placeholder.com/400x300"
+              src="/src/assets/images/aa.png"
               alt="Clase avanzada de Aikido"
-              class="w-full h-48 object-cover"
+              class="w-full object-cover"
             />
             <div class="p-4">
               <h4 class="text-xl font-semibold mb-2">
@@ -89,9 +89,9 @@ const languages = inject('languages');
           <!-- Card 3 -->
           <div class="bg-white rounded-lg shadow-md overflow-hidden">
             <img
-              src="https://via.placeholder.com/400x300"
+              src="/src/assets/images/ai.png"
               alt="Clase Infantil de Aikido"
-              class="w-full h-48 object-cover"
+              class="w-full  object-cover"
             />
             <div class="p-4">
               <h4 class="text-xl font-semibold mb-2">
@@ -119,7 +119,7 @@ const languages = inject('languages');
           <!-- Instructor 1 -->
           <div class="text-center flex flex-col justify-center items-center">
             <img
-              src="https://via.placeholder.com/150"
+              src="/src/assets/images/inst.png"
               alt="Instructor"
               class="w-32 h-32 rounded-full mb-4"
             />
